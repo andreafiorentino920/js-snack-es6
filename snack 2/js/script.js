@@ -35,9 +35,9 @@ const squadre = [
 ];
 console.log(squadre);
 var arrayNuovo = [];
-for(var i=0; i<=squadre.length;i++){
-    const [nome,,falli] = squadre[i];
-    arrayNuovo.push(nome,falli);
+for(let i=0; i<squadre.length;i++){
+    const {nomeSquadra,falliSubiti} = squadre[i];
+    arrayNuovo.push({nomeSquadra,falliSubiti});
 }
 console.log(arrayNuovo);
 
