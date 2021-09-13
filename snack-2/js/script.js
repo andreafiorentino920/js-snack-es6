@@ -40,4 +40,3 @@ for(let i=0; i<squadre.length;i++){
     arrayNuovo.push({nomeSquadra,falliSubiti});
 }
 console.log(arrayNuovo);
-
